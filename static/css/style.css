@@ -1,0 +1,53 @@
+body {
+  background: salmon;
+}
+
+h1,
+h3 {
+  text-align: center;
+  font-size: 4em;
+  color: green;
+}
+
+.links {
+  text-align: center;
+  margin-top: 2em;
+}
+
+a {
+  text-decoration: none;
+  font-size: 3em;
+  padding: 1em;
+}
+
+a:hover {
+  color: green;
+}
+
+.skills-list {
+  list-style: none;
+  text-align: center;
+  margin-top: 2em;
+  color: rebeccapurple;
+  font-size: 1.5em;
+}
+
+form {
+  text-align: center;
+  margin-top: 2em;
+}
+
+label,
+input {
+  font-size: 1.5em;
+}
+
+label {
+  color: rebeccapurple;
+}
+
+.add {
+  background-color: green;
+  color: rebeccapurple;
+  border-color: rebeccapurple;
+}

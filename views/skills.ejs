@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Skills</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h3>Skills</h3>
+    <hr>
+    <ul class="skills-list">
+      <% skills.forEach(function(skill) { %>
+      <li><%= skill.name %> at level <%= skill.level %></li>
+      <% }); %>
+    </ul>
+  </body>
+</html>
